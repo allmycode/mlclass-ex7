@@ -1,0 +1,17 @@
+bird_small.mat
+bird_small.png
+displayData.m
+drawLine.m
+ex7.m
+ex7.pdf
+ex7_pca.m
+ex7data1.mat
+ex7data2.mat
+ex7faces.mat
+featureNormalize.m
+kMeansInitCentroids.m
+plotDataPoints.m
+plotProgresskMeans.m
+runkMeans.m
+submit.m
+submitWeb.m
