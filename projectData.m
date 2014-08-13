@@ -19,7 +19,7 @@ Z = zeros(size(X, 1), K);
 %
 
 Ur = U(:, 1:K);
-Z = Ur'*X';
+Z = (Ur'*X')';
 
 
 
