@@ -28,7 +28,12 @@ centroids = zeros(K, n);
 
 for j = 1:K
     xk = X(find(idx == j), :);
-    centroids(j, :) = mean(xk);
+    %fprintf("j=%d, xk:(%d, %d) centoroids(j, :):(%d, %d)\n", j,
+    %size(xk, 1), size(xk, 2), size(centroids(j, :), 1),
+    %size(centroids(j, :), 2));
+    if (size(xk, 1) ~= 0)
+      centroids(j, :) = mean(xk);
+    endif
 end
 
 
